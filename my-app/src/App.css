@@ -1,3 +1,8 @@
 .heading {
-    color: "red";
+  color: "red";
+}
+
+.images {
+  width: 500px;
+  height: 500px;
 }
