@@ -10,7 +10,7 @@ createRoot(document.getElementById("root")).render(
       <h1 className="heading">My Favourite Food</h1>
 
       <div className="images">
-        <img src={pic10} alt="random" />
+        <img src={pic10 + "?white"} alt="random" />
         <img src={pic20} alt="gym" />
         <img src={pic22} alt="music" />
       </div>
