@@ -1,8 +1,12 @@
 import { createRoot } from "react-dom/client";
 
+function Heading() {
+  return <h1>My Favourite Food</h1>;
+}
+
 createRoot(document.getElementById("root")).render(
   <>
-    <h1>My Favourite Food</h1>
+    <Heading></Heading>
 
     <ul>
       <li>Bacon</li>
