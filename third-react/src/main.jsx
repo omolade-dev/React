@@ -1,10 +1,4 @@
 import { createRoot } from "react-dom/client";
-import Heading from "./Heading";
-import List from "./List";
+import App from "./App";
 
-createRoot(document.getElementById("root")).render(
-  <>
-    <Heading />
-    <List />
-  </>,
-);
+createRoot(document.getElementById("root")).render(<App />);
