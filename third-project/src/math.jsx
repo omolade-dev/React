@@ -1,13 +1,11 @@
-const pi = 3.14159;
-
-function doublePi() {
-  return pi * 2;
+function add(a, b) {
+  return a + b;
 }
 
-function triplePi() {
-  return pi * 3;
+function substract(a, b) {
+  return a - b;
 }
 
-export default pi;
-
-export { doublePi, triplePi };
+function divide(a, b) {
+  return a / b;
+}

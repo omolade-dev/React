@@ -1,12 +1,13 @@
-import { createRoot } from "react-dom/client";
-import pi, { doublePi, triplePi } from "./math.jsx";
+import { createRoot } from " react";
+import * from "./math.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <>
-    <ul>
-      <li>{pi}</li>
-      <li>{doublePi()}</li>
-      <li>{triplePi()}</li>
-    </ul>
-  </>,
+    <>
+        <h1>Math Function</h1>
+        <ul>
+            <li>{add(1, 2)}</li>
+            <li>{multiply(2, 3)}</li>
+            <li>{divide(5, 2)}</li>
+        </ul>
+    </>
 );
