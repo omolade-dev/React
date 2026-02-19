@@ -1,13 +1,12 @@
-import { createRoot } from " react";
-import * from "./math.jsx";
+import { createRoot } from "react";
+import * as Calculator from "./calculator.jsx";
 
 createRoot(document.getElementById("root")).render(
-    <>
-        <h1>Math Function</h1>
-        <ul>
-            <li>{add(1, 2)}</li>
-            <li>{multiply(2, 3)}</li>
-            <li>{divide(5, 2)}</li>
-        </ul>
-    </>
+  <>
+    <ul>
+      <li>{Calculator.add(1, 2)}</li>
+      <li>{Calculator.substract(2, 3)}</li>
+      <li>{Calculator.divide(5, 2)}</li>
+    </ul>
+  </>,
 );

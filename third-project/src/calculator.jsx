@@ -9,3 +9,5 @@ function substract(a, b) {
 function divide(a, b) {
   return a / b;
 }
+
+export { add, substract, divide };
