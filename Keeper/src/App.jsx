@@ -1,8 +1,16 @@
 import React from "react";
 import Header from "./Header.jsx";
+import Note from "./Note.jsx";
+import Footer from "./Footer.jsx";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Note />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
