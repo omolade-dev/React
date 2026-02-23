@@ -36,3 +36,5 @@ const contacts = [
     email: "deborah@gmail.com",
   },
 ];
+
+export default contacts;
