@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
-body {
+/* body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
+} */
 
 .heading {
   background-color: #facc15;
