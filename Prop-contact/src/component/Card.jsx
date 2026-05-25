@@ -1,15 +1,14 @@
 import React from "react";
+import Avater from "./Avater";
 
 function Card(props) {
   return (
     <div className="card  m-2 border-none rounded-md w-100 align-middle">
       <div className="top flex justify-between bg-blue-700">
-        <h2 className="name text-black font-bold p-10 text-2xl">{props.name}</h2>
-        <img
-          src={props.img}
-          alt="profile"
-          className="m-4 rounded-full w-30 h-40 object-cover float-right"
-        />
+        <h2 className="name text-black font-bold p-10 text-2xl">
+          {props.name}
+        </h2>
+        <Avater />
       </div>
 
       <div

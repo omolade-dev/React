@@ -1,13 +1,32 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Heading from "./Heading";
+import Cards from "./components/Cards";
+import "./App.css";
+import contacts from "./components/contacts";
 
 function App() {
   return (
     <div>
-      <Heading />
+      <h1 className="heading">My Contacts</h1>
+      <Cards
+        name={contacts[0].name}
+        img={contacts[0].img}
+        tel={contacts[0].tel}
+        email={contacts[0].email}
+      />
+      <Cards
+        name={contacts[1].name}
+        img={contacts[1].img}
+        tel={contacts[1].tel}
+        email={contacts[1].email}
+      />
+      <Cards
+        name={contacts[2].name}
+        img={contacts[2].img}
+        tel={contacts[2].tel}
+        email={contacts[2].email}
+      />
     </div>
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
